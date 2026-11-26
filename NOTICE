@@ -1,0 +1,15 @@
+EvelynLinfootSquarefree (standalone package)
+Copyright 2026 Sky (GitHub: ChironTheCentaur)
+
+The original work in this package (EvelynLinfootFC/, LeanClassics/, EvelynLinfootSquarefree.lean, check.py,
+AxiomAudit.lean, PlantedSorry.lean, controls/) is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The definitions `squarefreeCounting`, `squarefreeCountingError`, the example `squarefreeCounting_ten` and the
+statement of `erdos_969.variants.evelyn_linfoot` in EvelynLinfootFC/ are copied verbatim from
+google-deepmind/formal-conjectures (FormalConjectures/ErdosProblems/969.lean, commit ea8e3e19), Copyright The Formal
+Conjectures Authors, licensed under the Apache License, Version 2.0.
+
+Zeta23/ is a subset of zeta-23-lean, Copyright 2026 Anthropic, PBC, licensed under the Apache License, Version 2.0
+(LICENSE.zeta23, NOTICE.zeta23), as ported to Lean v4.35.0 / Mathlib 56a005855ea1. It is not relicensed.
+
+Mathlib and the Lean toolchain packages are fetched at build time and are not included.

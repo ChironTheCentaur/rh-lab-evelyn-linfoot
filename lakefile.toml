@@ -1,0 +1,18 @@
+name = "EvelynLinfootSquarefree"
+version = "0.1.0"
+defaultTargets = ["EvelynLinfootSquarefree"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "56a005855ea17e0b0958f73ec801ae140b0a1679"
+
+# Every module of the closure is a build target (globs), not only those the root reaches.
+[[lean_lib]]
+name = "EvelynLinfootSquarefree"
+roots = ["EvelynLinfootSquarefree"]
+globs = ["EvelynLinfootSquarefree", "EvelynLinfootFC", "EvelynLinfootFC.+", "LeanClassics.+", "Zeta23.+"]
