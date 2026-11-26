@@ -64,6 +64,8 @@ It runs `lake exe cache get` and `lake build` (every module), then:
 
 It writes `CHECK_RESULT.json` and exits 0 only on PASS.
 
+On Windows, clone with `git clone -c core.autocrlf=false ...` when checking a pinned older commit; `main` carries a .gitattributes that keeps exact bytes.
+
 Statement fidelity against formal-conjectures itself (needs a clone of it):
 
 ```
